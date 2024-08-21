@@ -1,0 +1,21 @@
+.sidebar {
+    grid-area: "sidebar";
+    background-color: #e0e0e0;
+    color: $colorFuenteGris;
+
+    &__menu {
+        display: flex;
+        flex-direction: column;
+    // ul {
+    //         list-style: none;
+    //         text-decoration: none;
+    //     }
+    }
+    ul {
+        list-style: none;
+    }
+    a {
+        text-decoration: none;
+        color: $colorFuenteGris;
+    }
+}

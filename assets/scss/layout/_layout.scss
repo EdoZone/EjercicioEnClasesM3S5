@@ -1,0 +1,14 @@
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "sidebar productos productos"
+    "footer footer footer";
+    grid-template-columns: 20% 1fr;
+    grid-template-rows: 10% 1fr 10%;
+    min-height: 100vh;
+    
+
+}
+
+
