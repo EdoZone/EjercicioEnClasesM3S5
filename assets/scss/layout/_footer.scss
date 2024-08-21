@@ -1,6 +1,8 @@
 .footer {
     grid-area: footer;
+    display: flex;
     background-color: #fff;
-    color: $BCHeaderFooter;
-    text-align: center;
+    color: $BGCHeaderFooter;
+    justify-content: center;
+    align-items: center;
 }

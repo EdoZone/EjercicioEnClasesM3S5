@@ -1,11 +1,13 @@
 .sidebar {
     grid-area: sidebar;
-    background-color: #e0e0e0;
+    background-color: $BGCsideProductos;
     color: $colorFuenteGris;
+    padding: 10px 0px 10px 15px;
 
     &__menu {
         display: flex;
         flex-direction: column;
+        padding: 10px;
     // ul {
     //         list-style: none;
     //         text-decoration: none;
@@ -14,8 +16,18 @@
     ul {
         list-style: none;
     }
+    li {
+        margin: 5px 0px 5px 0px;
+    }
     a {
         text-decoration: none;
         color: $colorFuenteGris;
+    }
+    span {
+        color: $colorFuenteGris;
+        font-style: italic;
+    }
+    h3 {
+        margin-bottom: 10px;
     }
 }
